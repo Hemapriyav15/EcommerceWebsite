@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BakeBliss</title>
+    <!--Favicon-->
+    <link href="img/Pink_Brown_Circle_Cake_Logo-removebg-preview.png" class="icon" rel="icon">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Icon Font Stylesheet (Font Awesome)-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <!--Bootstrap Stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Navbar and hero section -->
+   <div class="container-xxl position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 px-lg-5 py-3 py-lg-0" id="dashboard">
+        <a href="#" class="navbar-brand p-0">
+            <h1 class="m-0" id="logo">
+                <i class="fa fa-birthday-cake me-3"></i>
+            </h1>
+        </a>
+
+        <!-- Centered Heading (Visible on medium and larger screens) -->
+        <div class="mx-auto text-center d-none d-lg-block">
+            <h2 class="m-0 p-5 align-items-center" style="font-weight: bold;">Welcome to Cake Shop</h2>
+        </div>
+
+        <!-- Toggle Button for Collapsed Menu on Smaller Screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+        </button>
+
+        <!-- Collapsible Menu -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Centered Heading (Visible on small screens) -->
+            <div class="text-center d-lg-none mb-3">
+                <h2 class="m-0 align-items-center" style="font-weight: bold;">Welcome to Cake Shop</h2>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="btn-group ms-auto py-0 pe-4" role="group" aria-label="Navigation button group" style="font-style: italic; font-weight: bolder;">
+                <a href="#home" class="btn btn-primary">Home</a>
+                <a href="#about" class="btn btn-outline-warning">About</a>
+                <a href="#product" class="btn btn-outline-danger">Products</a>
+                <a href="#menu" class="btn btn-outline-info">Menu</a>
+                <a href="#contactus" class="btn btn-outline-success">ContactUs</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <!-- Hero Section -->
+    <div class="container-xxl py-5 bg-dark hero-header mb-5">
+      <div class="container my-5 py-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-3 text-black animated sliderInLeft" id="intro">Enjoy Your Day With Delicious Cake</h1>
+            <p class="text-dark animated sliderInLeft mb-4 pb-2">
+              Welcome to Delicious Bake Bliss, where every bite is a sweet celebration! Indulge in our freshly baked cakes made with love and the finest ingredients.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  
+ 
+    <!--About-->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center bg-dark text-light pb-5 rounded">
+                <!-- Image Column -->
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <!-- Image 1 -->
+                        <div class="col-6 text-start">
+                            <img class="img-fluid w-100 wow zoomIn rounded" src="img/bake 2.jpg" alt="Baking Image 1">
+                        </div>
+                        <!-- Image 2 -->
+                        <div class="col-6 text-start">
+                            <img class="img-fluid  w-75 wow zoomIn rounded-circle" src="img/cake bake.webp" alt="Baking Image 2">
+                        </div>
+                        <!-- Image 3 -->
+                        <div class="col-6 text-end">
+                            <img class="img-fluid w-75 wow zoomIn rounded-circle" src="img/bake 3.jpg" alt="Baking Image 3">
+                        </div>
+                        <!-- Image 4 -->
+                        <div class="col-6 text-end">
+                            <img class="img-fluid w-100 wow zoomIn rounded" src="img/bake4.jpg" alt="Baking Image 4">
+                        </div>
+                    </div>
+                </div>
+<!-- Content Column -->
+ 
+<div class="col-lg-6" >
+    <h1 class="section-title ff-secondary text-start text-warning fw-normal" id="about" >About Us</h1>
+    <h2 class="mb-4" id="about">Welcome to <i class="fa fa-utensils text-info me-2" ></i> Our Cake Shop</h2>
+    <p>
+        At our Bake Bliss shop, we pride ourselves on creating delicious cakes that are perfect for any occasion. 
+        From birthdays to weddings, our cakes are made with love and the finest ingredients.
+    </p>
+    <p>
+        Our team of skilled bakers is dedicated to bringing your cake dreams to life. Join us on this sweet journey!
+    </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Products Section -->
+<div class="container-xxl py-3 text-info">
+    <div class="container bg-dark p-5 rounded">
+        <div class="text-center wow fadeInUp" id="product" data-wow-delay="0.1s">
+            <h1 class="text-warning">Our Products</h1>
+            <h3 class="mb-5">Delicious Cakes for Every Occasion</h3>
+        </div>
+        <div class="row g-4">
+            <!-- Product List -->
+            <!-- Product 1: Chocolate Cake -->
+            <div class="col-lg-3 col-sm-6 fadeInUp" data-wow-delay="0.1s">
+                <div class="product-item rounded shadow-sm overflow-hidden">
+                    <div class="product-img">
+                        <img src="img/Chocolate Cake.webp" class="img-fluid" alt="Chocolate Cake">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h5 class="mb-3">Chocolate Cake</h5>
+                        <p class="text-dark bg-light rounded">Rich and moist chocolate cake topped with creamy frosting.</p>
+                        <p class="text-warning"><strong>Price: $20</strong></p>
+                        <div class="d-flex align-items-center mb-3">
+                            <label for="quantity1" class="form-label me-2 mb-0">Quantity</label>
+                            <input type="number" id="quantity1" class="form-control form-control-sm" min="1" value="1" style="width: 60px;">
+                        </div>
+                        <a href="#" class="btn btn-sm btn-success order-btn" data-product="Chocolate Cake" data-price="20" data-quantity="quantity1">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2: Red Velvet Cake -->
+            <div class="col-lg-3 col-sm-6 fadeInUp" data-wow-delay="0.3s">
+                <div class="product-item rounded shadow-sm overflow-hidden">
+                    <div class="product-img">
+                        <img src="img/red-velvet-Cake.webp" class="img-fluid" alt="Red Velvet Cake">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h5 class="mb-3">Red Velvet Cake</h5>
+                        <p class="text-dark bg-light rounded">A classic red velvet cake with smooth cream cheese frosting.</p>
+                        <p class="text-warning"><strong>Price: $25</strong></p>
+                        <div class="d-flex align-items-center mb-3">
+                            <label for="quantity2" class="form-label me-2 mb-0">Quantity</label>
+                            <input type="number" id="quantity2" class="form-control form-control-sm" min="1" value="1" style="width: 60px;">
+                        </div>
+                        <a href="#" class="btn btn-sm btn-success order-btn" data-product="Red Velvet Cake" data-price="25" data-quantity="quantity2">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3: Rainbow Cake -->
+            <div class="col-lg-3 col-sm-6 fadeInUp" data-wow-delay="0.5s">
+                <div class="product-item rounded shadow-sm overflow-hidden">
+                    <div class="product-img">
+                        <img src="img/rainbowcake.webp" class="img-fluid" alt="Rainbow Cake">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h5 class="mb-3">Rainbow Cake</h5>
+                        <p class="text-dark bg-light rounded">A vibrant cake representing happiness and diversity.</p>
+                        <p class="text-warning"><strong>Price: $30</strong></p>
+                        <div class="d-flex align-items-center mb-3">
+                            <label for="quantity3" class="form-label me-2 mb-0">Quantity</label>
+                            <input type="number" id="quantity3" class="form-control form-control-sm" min="1" value="1" style="width: 60px;">
+                        </div>
+                        <a href="#" class="btn btn-sm btn-success order-btn" data-product="Rainbow Cake" data-price="30" data-quantity="quantity3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4: Fruit Cake -->
+            <div class="col-lg-3 col-sm-6 fadeInUp" data-wow-delay="0.7s">
+                <div class="product-item rounded shadow-sm overflow-hidden">
+                    <div class="product-img">
+                        <img src="img/fruit-cake.webp" class="img-fluid" alt="Fruit Cake">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h5 class="mb-3">Fruit Cake</h5>
+                        <p class="text-dark bg-light rounded">A rich and flavorful cake filled with dried fruits.</p>
+                        <p class="text-warning"><strong>Price: $22</strong></p>
+                        <div class="d-flex align-items-center mb-3">
+                            <label for="quantity4" class="form-label me-2 mb-0">Quantity</label>
+                            <input type="number" id="quantity4" class="form-control form-control-sm" min="1" value="1" style="width: 60px;">
+                        </div>
+                        <a href="#" class="btn btn-sm btn-success order-btn" data-product="Fruit Cake" data-price="22" data-quantity="quantity4">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Products (5-8) -->
+            <!-- Product 5: Chocolate Truffle Cake -->
+            <div class="col-lg-3 col-sm-6 fadeInUp" data-wow-delay="0.9s">
+                <div class="product-item rounded shadow-sm overflow-hidden">
+                    <div class="product-img">
+                        <img src="img/Choco-truffule Cake.webp" class="img-fluid" alt="Chocolate Truffle Cake">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h5 class="mb-3">Choco Truffle Cake</h5>
+                        <p class="text-dark bg-light rounded">A rich chocolate cake layered with chocolate truffle.</p>
+                        <p class="text-warning"><strong>Price: $28</strong></p>
+                        <div class="d-flex align-items-center mb-3">
+                            <label for="quantity5" class="form-label me-2 mb-0">Quantity</label>
+                            <input type="number" id="quantity5" class="form-control form-control-sm" min="1" value="1" style="width: 60px;">
+                        </div>
+                        <a href="#" class="btn btn-sm btn-success order-btn" data-product="Choco Truffle Cake" data-price="28" data-quantity="quantity5">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6: Blueberry Cake -->
+            <div class="col-lg-3 col-sm-6 fadeInUp" data-wow-delay="0.9s">
+                <div class="product-item rounded shadow-sm overflow-hidden">
+                    <div class="product-img">
+                        <img src="img/blueberry-Cake.jpeg" class="img-fluid" alt="Blueberry Cake">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h5 class="mb-3">Sweet Blueberry Cake</h5>
+                        <p class="text-dark bg-light rounded">A light blueberry cake bursting with fresh flavor.</p>
+                        <p class="text-warning"><strong>Price: $26</strong></p>
+                        <div class="d-flex align-items-center mb-3">
+                            <label for="quantity6" class="form-label me-2 mb-0">Quantity</label>
+                            <input type="number" id="quantity6" class="form-control form-control-sm" min="1" value="1" style="width: 60px;">
+                        </div>
+                        <a href="#" class="btn btn-sm btn-success order-btn" data-product="Blueberry Cake" data-price="26" data-quantity="quantity6">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 7: Butterscotch Cake -->
+            <div class="col-lg-3 col-sm-6 fadeInUp" data-wow-delay="0.9s">
+                <div class="product-item rounded shadow-sm overflow-hidden">
+                    <div class="product-img">
+                        <img src="img/butterscotch Cake.webp" class="img-fluid" alt="Butterscotch Cake">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h5 class="mb-3">Butterscotch Cake</h5>
+                        <p class="text-dark bg-light rounded">A delicious cake with a rich butterscotch flavor.</p>
+                        <p class="text-warning"><strong>Price: $24</strong></p>
+                        <div class="d-flex align-items-center mb-3">
+                            <label for="quantity7" class="form-label me-2 mb-0">Quantity</label>
+                            <input type="number" id="quantity7" class="form-control form-control-sm" min="1" value="1" style="width: 60px;">
+                        </div>
+                        <a href="#" class="btn btn-sm btn-success order-btn" data-product="Butterscotch Cake" data-price="24" data-quantity="quantity7">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 8: Strawberry Cake -->
+            <div class="col-lg-3 col-sm-6 fadeInUp" data-wow-delay="0.9s">
+                <div class="product-item rounded shadow-sm overflow-hidden">
+                    <div class="product-img">
+                        <img src="img/Strawberry Cake.jpg" class="img-fluid" alt="Strawberry Cake">
+                    </div>
+                    <div class="p-4 text-center">
+                        <h5 class="mb-3">Strawberry Cake</h5>
+                        <p class="text-dark bg-light rounded">A delightful strawberry perfect cake.</p>
+                        <p class="text-warning"><strong>Price: $23</strong></p>
+                        <div class="d-flex align-items-center mb-3">
+                            <label for="quantity8" class="form-label me-2 mb-0">Quantity</label>
+                            <input type="number" id="quantity8" class="form-control form-control-sm" min="1" value="1" style="width: 60px;">
+                        </div>
+                        <a href="#" class="btn btn-sm btn-success order-btn" data-product="Strawberry Cake" data-price="23" data-quantity="quantity8">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirmation Message Container -->
+    <div id="confirmationMessage" class="alert alert-success d-none">
+        <strong>Order Confirmed!</strong> Your order for <span id="confirmedProduct"></span> (Quantity: <span id="confirmedQuantity"></span>) has been placed successfully. Total Price: <span id="totalPrice"></span>.
+    </div>
+</div>
+    
+<!--Menu Section-->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" id="menu">
+            <h1 class="section-title ff-secondary text-center text-success">Cake Menu Items..</h1>
+            <h3 class="mb-5" style="font-style: italic;font-family: 'Courier New', Courier, monospace;font-weight: bold;">Most Popular Cakes..</h3>
+        </div>
+        <div class="tab-class text-center wow fadeInUp  " data-wow-delay="0.1s">
+            <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 ">
+                <li class="nav-item">
+                    <a href="#" class="d-flex align-items-center text-start mx-3 pb-3 text-no-underline">
+                        <i class="fa fa-birthday-cake fa-2x text-warning"></i>
+                        <div class="ps-3">
+                            <small class="text-body">Special</small>
+                            <h5 class="mt-n1 mb-0">Launch</h5>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="d-flex align-items-center text-start mx-3 pb-3 text-no-underline">
+                        <i class="fa fa-utensils fa-2x text-info"></i>
+                        <div class="ps-3">
+                            <small class="text-body">Lovely</small>
+                            <h5 class="mt-n1 mb-0">Menu</h5>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show p-5 active bg-dark text-light rounded">
+                    
+                    <div class="row g-4" id="menu-scroll">
+                        <!-- Pineapple Cake -->
+                         <h2 style="font-family: 'Times New Roman', Times, serif;">Cake varieties</h2>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+
+                                <img src="img/pineapple Cake.jpeg" class="flex-shrink-0 img-fluid rounded" style="width: 100px;" alt="Pineapple Cake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Pineapple Cake</span>
+                                        <span class="text-danger bg-light rounded p-1">600/-</span>
+                                    </h5>
+                                    <small class="fst-italic">
+                                        Pineapple cake usually contains simple ingredients such as butter, flour, sugar, egg, and pineapple, and often winter melon may be added.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Strawberry Cake -->
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img src="img/Strawberry Cake.jpg" class="flex-shrink-0 img-fluid rounded" style="width: 100px;" alt="Strawberry Cake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Strawberry Cake</span>
+                                        <span class="text-danger bg-light rounded p-1">700/-</span>
+                                    </h5>
+                                    <small class="fst-italic">
+                                        The vibrant red hue of the strawberries adds visual appeal, making these cakes delicious and enticing.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Black Forest Cake -->
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img src="img/BlackForest-Cake.webp" class="flex-shrink-0 img-fluid rounded" style="width: 100px;" alt="Black Forest Cake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Black Forest Cake</span>
+                                        <span class="text-danger bg-light rounded p-1">630/-</span>
+                                    </h5>
+                                    <small class="fst-italic">
+                                        A rich and decadent layered cake known for its distinctive ingredients and flavors.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Butterscotch Cake -->
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img src="img/Butterscotch Cake.webp" class="flex-shrink-0 img-fluid rounded" style="width: 100px;" alt="Butterscotch Cake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Tasty Butterscotch Cake</span>
+                                        <span class="text-danger bg-light rounded p-1">650/-</span>
+                                    </h5>
+                                    <small class="fst-italic">
+                                        Butterscotch is a combination of butter and brown sugar that has been heated together to create a soft-crack candy.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mango Cake -->
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img src="img/Mango-Cake.webp" class="flex-shrink-0 img-fluid rounded" style="width: 100px;" alt="Mango Cake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Mango Cake</span>
+                                        <span class="text-danger bg-light rounded p-1">750/-</span>
+                                    </h5>
+                                    <small class="fst-italic">
+                                        It represents the joy and sweetness of life, with the candles blown out as a way to make a wish for the upcoming year.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- White Forest Cake -->
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img src="img/white-forest-cake.jpeg" class="flex-shrink-0 img-fluid rounded" style="width: 100px;" alt="White Forest Cake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>White Forest Cake</span>
+                                        <span class="text-danger bg-light rounded p-1">730/-</span>
+                                    </h5>
+                                    <small class="fst-italic">
+                                        White forest is a vanilla sponge cake soaked with sugar water and topped with white chocolate and cream.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Choco-chip Cake -->
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img src="img/Choco-Chip-Truffle_640x.webp" class="flex-shrink-0 img-fluid rounded" style="width: 100px;" alt="Choco-chip Cake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Choco-chip Cake</span>
+                                        <span class="text-danger bg-light rounded p-1">700/-</span>
+                                    </h5>
+                                    <small class="fst-italic">
+                                        Features rich chocolate flavors with a moist texture, balancing sweetness and customizable options.
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Swiss-Chocolate- -->
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img src="img/Swiss-Chocolate-scaled.jpg" class="flex-shrink-0 img-fluid rounded" style="width: 100px;" alt="White Forest Cake">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Swiss Chocolate Cake</span>
+                                        <span class="text-danger bg-light rounded p-1">700/-</span>
+                                    </h5>
+                                    <small class="fst-italic">
+                                        The Swiss Chocolate Cake is a decadent and indulgent dessert that combines rich flavors and textures.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container py-5" id="contactus">
+    <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-6 text-center">
+            <h4 class="section-title ff-secondary mb-4">Contact Us</h4>
+            <p class="mb-2"><i class="fa fa-map-marker-alt"></i> Door no-15,<br>cake craving shop<br> Neyveli</p>
+            <p class="mb-2"><i class="fa fa-phone-alt"></i> +91 9876543210</p>
+            <p class="mb-2"><i class="fa fa-envelope me-3-alt"></i> cravings@gmail.com</p>
+            <div class="d-flex justify-content-center pt-3">
+                <a href="#" class="btn btn-outline-light btn-social me-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="btn btn-outline-light btn-social me-2"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="btn btn-outline-light btn-social me-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-outline-light btn-social"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Footer section-->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5">
+    <div class="container py-5">
+        <div class="row g-5 justify-content-between">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h4 class="section-title ff-secondary text-start text-white" id="footer">Company</h4>
+                <ul class="list-unstyled">
+                    <li><a href="" class="btn btn-link text-warning p-0 text-no-underline">About Us</a></li>
+                    <li><a href="" class="btn btn-link text-warning p-0 text-no-underline">Reservation</a></li>
+                    <li><a href="" class="btn btn-link text-warning p-0 text-no-underline">Contact Us</a></li>
+                    <li><a href="" class="btn btn-link text-warning p-0 text-no-underline">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h4 class="section-title ff-secondary text-start text-info" id="footer">Opening</h4>
+                <h5 class="text-warning fw-normal">Monday - Saturday</h5>
+                <p>9.00 AM - 10.00 PM</p>
+                <h5 class="text-warning fw-normal">Sunday</h5>
+                <p>10.00 AM - 5.00 PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h4 class="section-title ff-secondary text-start text-white" id="footer">Newsletter</h4>
+                <p>Get exclusive offers and updates on our delicious cakes delivered right to your inbox!</p>
+                <div class="position-relative mx-auto">
+                    <input id="emailInput" class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" style="height: 40px;" placeholder="Enter your email">
+                    <button class="btn btn-success position-absolute top-0 end-0" id="btn-size" onclick="signUp()">SignUp</button>
+                </div>
+                <p id="message" style="color: green; background-color: #e3dcdc; font-family: 'Times New Roman', Times, serif; border-radius: 3px; margin-top: 10px;"></p>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="container pt-5">
+            <div class="copyright text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        &copy; <a href="#" style="text-decoration: none; color: #e3dcdc; font-size: 16px; font-style: italic;">our cake shop site has all rights reserved.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- javascript Bootstarp -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js">
+</script>
+</body>
+</html>

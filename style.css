@@ -1,0 +1,253 @@
+/* Body Styles */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    /* background-image: url('img/bgcake.jpg');
+    background-position: center;
+    background-size: cover; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#logo {
+    color: rgb(170, 24, 46);
+    padding-top: 5px;
+    border: none;
+}
+
+#banner {
+    border-radius: 50%;
+}
+
+
+/* #logo:hover {
+    background: linear-gradient(to right, rgba(144, 218, 223, 0.7), pink, rgba(227, 156, 241, 0.7), rgb(162, 155, 234));
+    border-radius: 50%;
+    height: 60px;
+    width: 80px;
+    padding-left: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px pink;
+} */
+
+#intro, #about, #product, #menu, #reservation, #footer {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#dashboard{
+    background: linear-gradient(to right, rgba(230, 189, 207, 0.7), rgb(163, 201, 190), rgba(40, 1, 48, 0.7),  rgba(0, 0, 0, 0.9));
+
+}
+/* Navbar Styles */
+.navbar {
+    transition: background-color 0.3s ease;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Navbar Links */
+.nav-item.nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-item.nav-link:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+/* Button Styles */
+.btn-success {
+    background-color: wheat;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #5dab18;
+    color: white;
+}
+
+/* Hero Header Styles */
+.hero-header {
+    background: linear-gradient(to bottom, rgba(31, 107, 174, 0.7), pink, rgba(5, 245, 161, 0.7));
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-header h1 {
+    color: #ffffff;
+    transition: color 0.3s ease;
+    font-size: 3rem;
+}
+
+.hero-header h1:hover {
+    color: #ca750e;
+}
+
+/* Product Item Styles */
+.product-item {
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 20px;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-item img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s ease;
+}
+
+.product-item img:hover, 
+.product-item img:active {
+    transform: scale(1.1);
+}
+
+.product-item h5, .section-title, #menu-scroll h5:hover {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu-scroll {
+    cursor: pointer;
+}
+
+/* Center-align the entire contact section */
+#contactus {
+    text-align: center;
+    background: linear-gradient(to right, rgba(87, 173, 173, 0.7), rgb(124, 181, 97), rgba(218, 170, 210, 0.7),  rgba(126, 179, 239, 0.169));
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+/* Style the section title */
+#contactus .section-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Style for each contact information item */
+#contactus p {
+    font-size: 16px;
+    color: #69173c;
+    margin-bottom: 15px;
+}
+
+/* Icon styles */
+#contactus i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Style the social media buttons */
+#contactus .btn-social {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactus .btn-social:hover {
+    background-color: #010c17;
+    border-color: #007bff;
+    color: #fff;
+}
+
+/* Add a hover effect on social media buttons */
+#contactus .btn-social i {
+    color: #007bff;
+}
+
+#contactus .btn-social:hover i {
+    color: #fff;
+}
+
+
+/* Placeholder Styles */
+input::placeholder, 
+textarea::placeholder {
+    font-family: serif;
+}
+
+/* Section Titles */
+.section-title {
+    transition: color 0.3s;
+    font-size: 2rem;
+}
+
+.section-title:hover {
+    color: #ff6347;
+}
+
+/* No Underline Text */
+.text-no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.text-no-underline:hover {
+    color: brown;
+}
+
+/* Copyright */
+.copyright a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#btn-size {
+    width: 30%;
+    height: 40px;
+    font-size: smaller;
+}
+
+#guests {
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-header h1 {
+        font-size: 2rem;
+    }
+    .product-item {
+        margin: 10px;
+    }
+}
