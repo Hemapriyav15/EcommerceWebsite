@@ -55,41 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }, 10); // Short timeout to ensure the styles apply
         });
     });
-
-    // Show Reservation Form Functionality
-    const showFormButton = document.getElementById("showFormButton");
-    const reservationFormContainer = document.getElementById("reservationFormContainer");
-
-    if (showFormButton && reservationFormContainer) {
-        showFormButton.addEventListener("click", function () {
-            reservationFormContainer.style.display = "block";
-            showFormButton.style.display = "none"; // Hide the button
-        });
-    }
-
-    // Form Submission Handling with Validation
-    const reservationForm = document.getElementById("reservationForm");
-    const confirmationMessage = document.getElementById("confirmationMessage");
-
-    if (reservationForm && confirmationMessage) {
-        reservationForm.addEventListener("submit", function (event) {
-            event.preventDefault(); // Prevent default form submission behavior
-
-            // Perform validation
-            if (!reservationForm.checkValidity()) {
-                reservationForm.classList.add("was-validated");
-                return;
-            }
-
-            // If valid, display confirmation message
-            confirmationMessage.style.display = "block";
-
-            // Optional: Reset the form fields
-            reservationForm.reset();
-            reservationForm.classList.remove("was-validated"); // Remove validation styles for future entries
-        });
-    }
-});
+})
 //newsletter click
 
   function signUp() {
